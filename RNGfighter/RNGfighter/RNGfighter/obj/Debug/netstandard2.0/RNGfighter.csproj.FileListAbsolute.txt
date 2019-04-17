@@ -3,10 +3,11 @@ C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\bin
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\bin\Debug\netstandard2.0\RNGfighter.pdb
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\RNGfighter.csprojAssemblyReference.cache
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\RNGfighter.csproj.CoreCompileInputs.cache
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\RNGfighter.AssemblyInfoInputs.cache
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\RNGfighter.AssemblyInfo.cs
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\RNGfighter.dll
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\RNGfighter.pdb
+C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\Views\MainMenu.xaml.g.cs

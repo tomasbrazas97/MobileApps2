@@ -2,7 +2,6 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace RNGfighter
 {
     public partial class App : Application
@@ -11,7 +10,7 @@ namespace RNGfighter
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainMenu());
         }
 
         protected override void OnStart()
