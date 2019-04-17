@@ -24,15 +24,18 @@ namespace RNGfighter
         public MainPage()
         {
             InitializeComponent();
+            //Imaghes
             enemyImage.Source = ImageSource.FromFile("redDragon.jpg");
             fireImage.Source = ImageSource.FromFile("fireBG.jpg");
 
+            //Launch an instance of media player
             mediaPlayer = new MediaPlayer();
             mediaPlayer.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///backgroundMusic.mp3", UriKind.RelativeOrAbsolute));
             mediaPlayer.Volume = 0.15;
             mediaPlayer.Play();
             mediaPlayer.IsMuted = false;
 
+            //Launch an instance of stopwatch
             stopwatch = new Stopwatch();
             lblStopwatch.Text = "00:00:00.00000";
             
@@ -45,16 +48,19 @@ namespace RNGfighter
             //Taking damage
             if (button.Text == damage)
             {
+                //Adds +1 to the score
                 lblScore.Text = "Score: " + score;
                 score += 1;
+                //Display when successful hit is registered
                 await DisplayAlert("You Hit the dragon!", "Point has been obtained.", "Continue");
                
-
+                //Randomize the numbers
                 damage = new Random().Next(1, 4).ToString();
                 
             }
         }
 
+        //Mute functionality
         public void Mute_OnClicked(object sender, EventArgs e)
         {
 
@@ -69,7 +75,7 @@ namespace RNGfighter
                 muteBtn.Text = "Mute";
             }
         }
-
+        // Stopwatch functionality begins upon button click
         private void btnStart_Clicked(object sender, EventArgs e)
         {
             if (!stopwatch.IsRunning)
@@ -78,6 +84,7 @@ namespace RNGfighter
 
                 Device.StartTimer(TimeSpan.FromMilliseconds(100), () =>
                 {
+                    //Stopwatch is constantly updated to label
                     lblStopwatch.Text = stopwatch.Elapsed.ToString();
 
                     if (!stopwatch.IsRunning)

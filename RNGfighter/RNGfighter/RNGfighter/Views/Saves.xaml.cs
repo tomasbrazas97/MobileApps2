@@ -22,6 +22,7 @@ namespace RNGfighter
 			InitializeComponent ();
             //this.BindingContext = new SavesViewModel(new PageService());
 
+            //Launch an instance of media player
             mediaPlayer = new MediaPlayer();
             mediaPlayer.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///backgroundMusic.mp3", UriKind.RelativeOrAbsolute));
             mediaPlayer.Volume = 0.15;
@@ -29,17 +30,20 @@ namespace RNGfighter
             mediaPlayer.IsMuted = false;
         }
 
+        //Navigation from Saves to MainPage
         private async void NavigateButton_OnClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPage());
         }
 
+        //Navigation from Saves to MainMenu
         private async void Return_OnClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainMenu());
             mediaPlayer.Dispose();
         }
 
+        //One attempt at Deserialization 
         public static void DeSerialization()
         {
             //Read object from the file
