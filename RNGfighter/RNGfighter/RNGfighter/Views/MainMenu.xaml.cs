@@ -12,7 +12,7 @@ namespace RNGfighter
 {
 	public partial class MainMenu : ContentPage
 	{
-        private MediaPlayer mediaPlayer;
+        public MediaPlayer mediaPlayer;
 
         public MainMenu()
 		{
@@ -30,6 +30,12 @@ namespace RNGfighter
         private async void NavigateButton_OnClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPage());
+        }
+
+        private async void LoadGame_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Saves());
+            mediaPlayer.Dispose();
         }
 
         public void Mute_OnClicked(object sender, EventArgs e)

@@ -13,3 +13,4 @@ C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\Views\MainMenu.xaml.g.cs
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\RNGfighter.csproj.CopyComplete
+C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\obj\Debug\netstandard2.0\Views\Saves.xaml.g.cs
