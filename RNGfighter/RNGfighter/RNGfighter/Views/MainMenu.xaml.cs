@@ -12,12 +12,14 @@ namespace RNGfighter
 {
 	public partial class MainMenu : ContentPage
 	{
-		public MainMenu()
+        private MediaPlayer mediaPlayer;
+
+        public MainMenu()
 		{
 			InitializeComponent();
             mainBanner.Source = ImageSource.FromFile("mainbanner.png");
 
-            var mediaPlayer = new MediaPlayer();
+            mediaPlayer = new MediaPlayer();
             mediaPlayer.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///backgroundMusic.mp3", UriKind.RelativeOrAbsolute));
             mediaPlayer.Volume = 0.15;
             mediaPlayer.Play();
@@ -30,7 +32,23 @@ namespace RNGfighter
             await Navigation.PushAsync(new MainPage());
         }
 
-        
+        public void Mute_OnClicked(object sender, EventArgs e)
+        {
+            
+            if (mediaPlayer.IsMuted == false)
+            {
+                mediaPlayer.IsMuted = true;
+                muteBtn.Text = "Unmute";
+            }
+            else
+            {
+                mediaPlayer.IsMuted = false;
+                muteBtn.Text = "Mute";
+            }
+        }
+
+
+
     }
 
     

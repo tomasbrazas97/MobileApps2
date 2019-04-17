@@ -26,8 +26,8 @@
 
             <Button Text="New Game"  BorderWidth="2" BorderColor="White" BackgroundColor="Red" Clicked="NavigateButton_OnClicked" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"></Button>
             <Button Text="Load Game" BorderWidth="2" BorderColor="White" BackgroundColor="Red" Clicked="NavigateButton_OnClicked" Grid.Row="3"  Grid.Column="1" Grid.ColumnSpan="2"></Button>
-            <Button Text="Mute" BorderWidth="2" BorderColor="White" BackgroundColor="Red" Grid.Row="4"  Grid.Column="1" ></Button>
-            <Button Text="Unmute" BorderWidth="2" BorderColor="White" BackgroundColor="Red"  Grid.Row="4"  Grid.Column="2" ></Button>
+            <Button x:Name="muteBtn" Text="Mute" Clicked="Mute_OnClicked" BorderWidth="2" BorderColor="White" BackgroundColor="Red" Grid.Row="4"  Grid.Column="1" ></Button>
+            <Button Text="Quit"  BorderWidth="2" BorderColor="White" BackgroundColor="Red"  Grid.Row="4"  Grid.Column="2" ></Button>
         </Grid>
     </StackLayout>
 </ContentPage>
