@@ -12,4 +12,5 @@ The application is made up of 3 main pages that are navigationable by the user. 
 
 
 A test plan and design documents are included in this project.
+Did not test on Android as Emulator wouldn't work and do not have Android phone.
 
