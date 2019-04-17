@@ -7,6 +7,9 @@ using System.Diagnostics;
 using Windows.Media.Core;
 using Windows.Media.Playback;
 using Xamarin.Forms;
+using System.IO;
+using System.Reflection;
+using Newtonsoft.Json;
 
 namespace RNGfighter
 {
@@ -16,6 +19,7 @@ namespace RNGfighter
         int score = 1;
         public MediaPlayer mediaPlayer;
         Stopwatch stopwatch;
+        private object listviewPlayers;
 
         public MainPage()
         {
@@ -90,6 +94,8 @@ namespace RNGfighter
             }
 
         }
-    
+
+        
+
     }
 }

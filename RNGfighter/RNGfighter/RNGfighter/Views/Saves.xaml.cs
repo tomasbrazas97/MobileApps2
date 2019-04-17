@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +20,7 @@ namespace RNGfighter
         public Saves ()
 		{
 			InitializeComponent ();
+            //this.BindingContext = new SavesViewModel(new PageService());
 
             mediaPlayer = new MediaPlayer();
             mediaPlayer.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///backgroundMusic.mp3", UriKind.RelativeOrAbsolute));
@@ -35,6 +38,18 @@ namespace RNGfighter
         {
             await Navigation.PushAsync(new MainMenu());
             mediaPlayer.Dispose();
+        }
+
+        public static void DeSerialization()
+        {
+            //Read object from the file
+            string json = File.ReadAllText(@"C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\Data\myPlayers.txt");
+
+            //Deserialize the object
+            Player data = JsonConvert.DeserializeObject<Player>(json);
+
+            //Assign data
+           // viewID.Text = data.ID;
         }
     }
 }

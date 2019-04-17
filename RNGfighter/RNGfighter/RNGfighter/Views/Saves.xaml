@@ -22,10 +22,11 @@
             <Label BackgroundColor="Black" FontSize="48" TextColor="Red" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"  Text="Saves"
                         VerticalOptions="Center" HorizontalOptions="Center" FontFamily="Impact"></Label>
 
-            <Button Text="Save 1"  BorderWidth="2" BorderColor="White" BackgroundColor="Red" Clicked="NavigateButton_OnClicked" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"></Button>
-            <Button Text="Save 2" BorderWidth="2" BorderColor="White" BackgroundColor="Red" Clicked="NavigateButton_OnClicked" Grid.Row="2"  Grid.Column="1" Grid.ColumnSpan="2"></Button>
-            <Button Text="Save 3" Clicked="NavigateButton_OnClicked" BorderWidth="2" BorderColor="White" BackgroundColor="Red" Grid.Row="3"  Grid.Column="1" Grid.ColumnSpan="2" ></Button>
-            <Button Text="Return" Clicked="Return_OnClicked" BorderWidth="2" BorderColor="White" BackgroundColor="Red"  Grid.Row="5"  Grid.Column="1" Grid.ColumnSpan="2" ></Button>
+            <Button x:Name="viewID" Text="{Binding ID}" BorderWidth="2" BorderColor="White" BackgroundColor="Red" Clicked="NavigateButton_OnClicked" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"></Button>
+            <Button  Text="{Binding ID}" BorderWidth="2" BorderColor="White" BackgroundColor="Red" Clicked="NavigateButton_OnClicked" Grid.Row="2"  Grid.Column="1" Grid.ColumnSpan="2"></Button>
+            <Button Text="{Binding ID}" Clicked="NavigateButton_OnClicked" BorderWidth="2" BorderColor="White" BackgroundColor="Red" Grid.Row="3"  Grid.Column="1" Grid.ColumnSpan="2" ></Button>
+            <Button  Text="Return" Clicked="Return_OnClicked" BorderWidth="2" BorderColor="White" BackgroundColor="Red"  Grid.Row="5"  Grid.Column="1" Grid.ColumnSpan="2" ></Button>
+    
         </Grid>
     </StackLayout>
 </ContentPage>
