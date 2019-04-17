@@ -1,0 +1,1 @@
+C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\RNGfighter.UWP.csproj;x86
