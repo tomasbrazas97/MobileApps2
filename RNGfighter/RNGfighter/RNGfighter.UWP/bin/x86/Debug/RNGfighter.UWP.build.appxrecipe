@@ -658,6 +658,12 @@
     <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\dragon.jpg">
       <PackagePath>dragon.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\fireBG.jpg">
+      <PackagePath>fireBG.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\redDragon.jpg">
+      <PackagePath>redDragon.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

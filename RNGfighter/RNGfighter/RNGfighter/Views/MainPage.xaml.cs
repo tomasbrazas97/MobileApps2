@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Media.Core;
+using Windows.Media.Playback;
 using Xamarin.Forms;
 
 namespace RNGfighter
@@ -10,11 +12,19 @@ namespace RNGfighter
     public partial class MainPage : ContentPage
     {
         static string damage = new Random().Next(1, 4).ToString();
+        public MediaPlayer mediaPlayer;
 
         public MainPage()
         {
             InitializeComponent();
-            enemyImage.Source = ImageSource.FromFile("dragon.jpg");
+            enemyImage.Source = ImageSource.FromFile("redDragon.jpg");
+            fireImage.Source = ImageSource.FromFile("fireBG.jpg");
+
+            mediaPlayer = new MediaPlayer();
+            mediaPlayer.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///backgroundMusic.mp3", UriKind.RelativeOrAbsolute));
+            mediaPlayer.Volume = 0.15;
+            mediaPlayer.Play();
+            mediaPlayer.IsMuted = false;
         }
 
         async void ButtonClicked(object sender, EventArgs e)
@@ -29,9 +39,19 @@ namespace RNGfighter
             }
         }
 
-        private async void NavigateButton_OnClicked(object sender, EventArgs e)
+        public void Mute_OnClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainMenu());
+
+            if (mediaPlayer.IsMuted == false)
+            {
+                mediaPlayer.IsMuted = true;
+                muteBtn.Text = "Unmute";
+            }
+            else
+            {
+                mediaPlayer.IsMuted = false;
+                muteBtn.Text = "Mute";
+            }
         }
     }
 }

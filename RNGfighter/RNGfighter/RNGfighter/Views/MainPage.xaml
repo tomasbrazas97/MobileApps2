@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:RNGfighter"
              x:Class="RNGfighter.MainPage">
 
-    <StackLayout>
+    <StackLayout BackgroundColor="Black">
         <Grid x:Name="gridContent">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
@@ -20,38 +20,17 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-                
-            <Label  Text="ENEMY!" 
-            HorizontalOptions="Center"
-            VerticalOptions="Center" 
-            Grid.Row="1" Grid.Column="2" />
 
-            <Image x:Name="enemyImage" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" Grid.RowSpan="2">
-                
-            </Image>
+            <Label BackgroundColor="Black" FontSize="20" TextColor="Red" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"  Text="Saves"
+                        VerticalOptions="Center" HorizontalOptions="Center" FontFamily="Impact"></Label>
 
-                    <Button Text="1" 
-            HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand" 
-             Clicked="ButtonClicked"
-             Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
-
-            <Button Text="2" 
-            HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand" 
-            Clicked="ButtonClicked"
-             Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2"/>
-
-            <Button Text="3" 
-            HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand"
-            Clicked="ButtonClicked"
-             Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2"/>
-
-  
-            <Button Text="Home" BackgroundColor="Blue" Clicked="NavigateButton_OnClicked" Grid.Row="4" Grid.Column="4">
-            </Button>
-      
+            <Image x:Name="enemyImage" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" ></Image>
+            <Image x:Name="fireImage" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="5" Grid.RowSpan="3"></Image>
+            
+            <Button Text="1"  BorderRadius="80" WidthRequest="160" HeightRequest="160" BorderColor="White" BackgroundColor="Red" Clicked="ButtonClicked" Grid.Row="2" Grid.Column="1" ></Button>
+            <Button Text="2" BorderRadius="80" WidthRequest="160" HeightRequest="160" BorderColor="White" BackgroundColor="Red" Clicked="ButtonClicked" Grid.Row="2"  Grid.Column="3"></Button>
+            <Button x:Name="muteBtn" Text="Mute" Clicked="Mute_OnClicked" BorderWidth="2" BorderColor="White" BackgroundColor="Red" Grid.Row="5"  Grid.Column="4"  ></Button>
+            <Button Text="3" BorderRadius="80" WidthRequest="160" HeightRequest="160" BorderColor="White" BackgroundColor="Red" Clicked="ButtonClicked" Grid.Row="4"  Grid.Column="2"></Button>
 
 
         </Grid>

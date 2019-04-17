@@ -30,6 +30,7 @@ namespace RNGfighter
         private async void NavigateButton_OnClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPage());
+            mediaPlayer.Dispose();
         }
 
         private async void LoadGame_OnClicked(object sender, EventArgs e)
