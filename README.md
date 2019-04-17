@@ -14,3 +14,7 @@ The application is made up of 3 main pages that are navigationable by the user. 
 A test requirements, test cases for those test requirements and design documents are included in this project.
 Did not test on Android as Emulator wouldn't work and do not have Android phone.
 
+
+# References
+> Lecture Slides & Notes
+> Xamarin Forums (media player)
