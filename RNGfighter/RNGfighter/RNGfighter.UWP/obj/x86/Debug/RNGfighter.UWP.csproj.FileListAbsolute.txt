@@ -300,3 +300,4 @@ C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758552200000000.json
+C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\bin\x86\Debug\Windows.Foundation.UniversalApiContract.winmd

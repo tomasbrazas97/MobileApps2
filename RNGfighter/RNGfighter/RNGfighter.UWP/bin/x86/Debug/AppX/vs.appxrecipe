@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-17T13:49:00.125</Modified>
+      <Modified>2019-04-17T15:04:42.268</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\bin\x86\Debug\RNGfighter.UWP.exe">
       <PackagePath>entrypoint\RNGfighter.UWP.exe</PackagePath>
-      <Modified>2019-04-17T13:48:58.890</Modified>
+      <Modified>2019-04-17T15:04:40.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tomas\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -712,11 +712,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\bin\Debug\netstandard2.0\RNGfighter.dll">
       <PackagePath>RNGfighter.dll</PackagePath>
-      <Modified>2019-04-17T13:48:50.320</Modified>
+      <Modified>2019-04-17T15:04:34.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2018-10-23T01:33:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd">
+      <PackagePath>Windows.Foundation.UniversalApiContract.winmd</PackagePath>
+      <Modified>2018-10-22T20:48:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -853,6 +857,14 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-04-15T23:08:07.121</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\mainbanner.png">
+      <PackagePath>mainbanner.png</PackagePath>
+      <Modified>2019-04-17T14:32:36.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\backgroundMusic.mp3">
+      <PackagePath>backgroundMusic.mp3</PackagePath>
+      <Modified>2019-04-17T14:54:47.525</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\dragon.jpg">
       <PackagePath>dragon.jpg</PackagePath>
       <Modified>2019-04-17T01:41:12.188</Modified>
@@ -867,11 +879,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-17T13:48:58.495</Modified>
+      <Modified>2019-04-17T15:04:40.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-17T13:48:58.495</Modified>
+      <Modified>2019-04-17T15:04:40.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -883,11 +895,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-04-17T01:41:34.343</Modified>
+      <Modified>2019-04-17T15:04:41.713</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tomas\Documents\GitHub\MobileApps2\RNGfighter\RNGfighter\RNGfighter.UWP\bin\x86\Debug\Core\RNGfighter.UWP.exe">
       <PackagePath>RNGfighter.UWP.exe</PackagePath>
-      <Modified>2019-04-17T13:49:00.113</Modified>
+      <Modified>2019-04-17T15:04:42.260</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

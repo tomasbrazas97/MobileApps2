@@ -21,7 +21,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
                 
-            <Label Text="ENEMY!" 
+            <Label  Text="ENEMY!" 
             HorizontalOptions="Center"
             VerticalOptions="Center" 
             Grid.Row="1" Grid.Column="2" />
