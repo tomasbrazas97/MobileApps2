@@ -13,6 +13,7 @@ namespace RNGfighter
     public partial class MainPage : ContentPage
     {
         static string damage = new Random().Next(1, 4).ToString();
+        int score = 1;
         public MediaPlayer mediaPlayer;
         Stopwatch stopwatch;
 
@@ -30,6 +31,7 @@ namespace RNGfighter
 
             stopwatch = new Stopwatch();
             lblStopwatch.Text = "00:00:00.00000";
+            
         }
 
         async void ButtonClicked(object sender, EventArgs e)
@@ -39,9 +41,13 @@ namespace RNGfighter
             //Taking damage
             if (button.Text == damage)
             {
-                await DisplayAlert("You took Damage", "Time has been added.", "Continue");
+                lblScore.Text = "Score: " + score;
+                score += 1;
+                await DisplayAlert("You Hit the dragon!", "Point has been obtained.", "Continue");
+               
 
                 damage = new Random().Next(1, 4).ToString();
+                
             }
         }
 

@@ -24,6 +24,9 @@
             <Label  x:Name="lblStopwatch" FontSize="25" BackgroundColor="Black"  TextColor="White" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3"
                         VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontFamily="Impact"></Label>
 
+            <Label  x:Name="lblScore" FontSize="10" BackgroundColor="Black"  TextColor="White" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                        VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontFamily="Impact"></Label>
+
             <Image x:Name="enemyImage" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" ></Image>
             <Image x:Name="fireImage" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="5" Grid.RowSpan="3"></Image>
             
