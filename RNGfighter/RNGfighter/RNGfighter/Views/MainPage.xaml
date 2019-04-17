@@ -21,8 +21,8 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <Label BackgroundColor="Black" FontSize="20" TextColor="Red" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"  Text="Saves"
-                        VerticalOptions="Center" HorizontalOptions="Center" FontFamily="Impact"></Label>
+            <Label  x:Name="lblStopwatch" FontSize="25" BackgroundColor="Black"  TextColor="White" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3"
+                        VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontFamily="Impact"></Label>
 
             <Image x:Name="enemyImage" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" ></Image>
             <Image x:Name="fireImage" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="5" Grid.RowSpan="3"></Image>
@@ -31,6 +31,7 @@
             <Button Text="2" BorderRadius="80" WidthRequest="160" HeightRequest="160" BorderColor="White" BackgroundColor="Red" Clicked="ButtonClicked" Grid.Row="2"  Grid.Column="3"></Button>
             <Button x:Name="muteBtn" Text="Mute" Clicked="Mute_OnClicked" BorderWidth="2" BorderColor="White" BackgroundColor="Red" Grid.Row="5"  Grid.Column="4"  ></Button>
             <Button Text="3" BorderRadius="80" WidthRequest="160" HeightRequest="160" BorderColor="White" BackgroundColor="Red" Clicked="ButtonClicked" Grid.Row="4"  Grid.Column="2"></Button>
+            <Button x:Name="btnStart" Clicked="btnStart_Clicked" Text="Start" BorderWidth="2" BorderColor="White" BackgroundColor="Red" Grid.Row="5"  Grid.Column="0"></Button>
 
 
         </Grid>
